@@ -363,18 +363,19 @@ const bindings = {
     'ArrowLeft': leftButton,
     'ArrowRight': rightButton,
     'ArrowUp': removeBallButton,
-    'r': colorGroup.childNodes[0],
-    'o': colorGroup.childNodes[1],
-    'y': colorGroup.childNodes[2],
-    's': colorGroup.childNodes[3],
-    'f': colorGroup.childNodes[4],
-    'm': colorGroup.childNodes[5],
-    'c': colorGroup.childNodes[6],
-    'b': colorGroup.childNodes[7],
-    'p': colorGroup.childNodes[8],
-    'u': colorGroup.childNodes[9],
-    'w': colorGroup.childNodes[10],
-    'g': colorGroup.childNodes[11]        
+    'q': colorGroup.childNodes[0],
+    'r': colorGroup.childNodes[1],
+    'o': colorGroup.childNodes[2],
+    'y': colorGroup.childNodes[3],
+    's': colorGroup.childNodes[4],
+    'f': colorGroup.childNodes[5],
+    'm': colorGroup.childNodes[6],
+    'c': colorGroup.childNodes[7],
+    'b': colorGroup.childNodes[8],
+    'p': colorGroup.childNodes[9],
+    'u': colorGroup.childNodes[10],
+    'w': colorGroup.childNodes[11],
+    'g': colorGroup.childNodes[12]        
 }
 document.addEventListener('keydown', (event) => {
     const button = bindings[event.key]
